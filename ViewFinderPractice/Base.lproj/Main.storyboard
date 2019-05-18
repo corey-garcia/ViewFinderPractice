@@ -43,12 +43,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Yd-7d-fgt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-486" y="-68"/>
+            <point key="canvasLocation" x="-217" y="-75"/>
         </scene>
         <!--Title-->
         <scene sceneID="C4v-U4-dcM">
             <objects>
-                <viewController id="kuL-7O-ugs" sceneMemberID="viewController">
+                <viewController id="kuL-7O-ugs" customClass="PhotoViewController" customModule="ViewFinderPractice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cWL-Nk-NuN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -57,11 +57,17 @@
                                 <rect key="frame" x="127" y="147" width="160" height="107"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Camera"/>
+                                <connections>
+                                    <action selector="openCamera:" destination="kuL-7O-ugs" eventType="touchUpInside" id="Xh4-lY-oQQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HOq-JM-gfo">
                                 <rect key="frame" x="148" y="382" width="118" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Photolibrary"/>
+                                <connections>
+                                    <action selector="openPhotoLibrary:" destination="kuL-7O-ugs" eventType="touchUpInside" id="fI9-sI-IGC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0qo-ZM-1KO">
                                 <rect key="frame" x="157" y="579" width="100" height="69"/>
@@ -80,7 +86,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C33-7l-7h5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="733.33333333333337" y="-68.303571428571431"/>
+            <point key="canvasLocation" x="1280" y="-75"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="feJ-du-Jri">
