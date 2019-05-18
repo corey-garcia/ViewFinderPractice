@@ -12,6 +12,7 @@
 		0409CC48228F6DBD00F1E0B7 /* ViewFinderPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0409CC46228F6DBD00F1E0B7 /* ViewFinderPractice.xcdatamodeld */; };
 		0409CC4A228F6DBF00F1E0B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0409CC49228F6DBF00F1E0B7 /* Assets.xcassets */; };
 		0409CC4D228F6DBF00F1E0B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0409CC4B228F6DBF00F1E0B7 /* LaunchScreen.storyboard */; };
+		0409CC55228F9E2000F1E0B7 /* download.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0409CC54228F9E1F00F1E0B7 /* download.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0409CC49228F6DBF00F1E0B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0409CC4C228F6DBF00F1E0B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0409CC4E228F6DBF00F1E0B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0409CC54228F9E1F00F1E0B7 /* download.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = download.jpg; path = ../../../download.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				0409CC3F228F6DBD00F1E0B7 /* AppDelegate.swift */,
-				0409CC43228F6DBD00F1E0B7 /* Main.storyboard */,
 				0409CC49228F6DBF00F1E0B7 /* Assets.xcassets */,
+				0409CC43228F6DBD00F1E0B7 /* Main.storyboard */,
+				0409CC54228F9E1F00F1E0B7 /* download.jpg */,
 				0409CC4B228F6DBF00F1E0B7 /* LaunchScreen.storyboard */,
 				0409CC4E228F6DBF00F1E0B7 /* Info.plist */,
 				0409CC46228F6DBD00F1E0B7 /* ViewFinderPractice.xcdatamodeld */,
@@ -125,6 +128,7 @@
 				0409CC4D228F6DBF00F1E0B7 /* LaunchScreen.storyboard in Resources */,
 				0409CC4A228F6DBF00F1E0B7 /* Assets.xcassets in Resources */,
 				0409CC45228F6DBD00F1E0B7 /* Main.storyboard in Resources */,
+				0409CC55228F9E2000F1E0B7 /* download.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

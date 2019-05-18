@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -33,12 +34,53 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="ViewFinderPractice" id="y6X-TV-OrI">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="BSI-Kt-O85"/>
+                        <barButtonItem key="rightBarButtonItem" title="+" id="BSI-Kt-O85">
+                            <connections>
+                                <segue destination="kuL-7O-ugs" kind="show" id="8O2-w0-i8V"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Yd-7d-fgt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-486" y="-68"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="C4v-U4-dcM">
+            <objects>
+                <viewController id="kuL-7O-ugs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cWL-Nk-NuN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yx-Ht-h0F">
+                                <rect key="frame" x="127" y="147" width="160" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Camera"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HOq-JM-gfo">
+                                <rect key="frame" x="148" y="382" width="118" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Photolibrary"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0qo-ZM-1KO">
+                                <rect key="frame" x="157" y="579" width="100" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Save"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q4V-HX-dby">
+                                <rect key="frame" x="87" y="697" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6hz-fn-qYs"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="2BC-GO-gIg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C33-7l-7h5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="733.33333333333337" y="-68.303571428571431"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="feJ-du-Jri">
